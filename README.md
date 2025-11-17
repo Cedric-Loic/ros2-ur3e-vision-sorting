@@ -194,8 +194,8 @@ Right after move the calibration launcher on folder in ros2_ws/src
 
 ```bash
 cd
-git clone https://github.com/Cedric-Loic/ur3e.git
-cd ur3e 
+git clone https://github.com/Cedric-Loic/ros2-ur3e-vision-sorting.git
+cd ros2-ur3e-vision-sorting
 mv calibration_launcher ~/ros2_ws/src
 cd ~/ros2_ws/
 colcon build --packages-select calibration_launcher
